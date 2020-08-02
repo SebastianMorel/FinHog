@@ -1,0 +1,211 @@
+#particles-js{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    background-color: white;
+    background-image: url('../images/particlesbg.png');
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+  }
+  
+  * {
+      margin: 0;
+      padding: 0;
+  }
+  
+  ::-webkit-scrollbar {
+    display: none;
+  }
+  
+  .body-particles{
+    position: absolute;
+    left: 10%;
+    z-index: 1;
+  }
+  
+  html {
+      top:0;
+      bottom:0;
+      left:0;
+      right:0;
+      overflow-y: scroll;
+      scroll-behavior: smooth;
+      scroll-snap-type: y mandatory;
+  }
+  
+  body {
+      top:0;
+      bottom:0;
+      left:0;
+      right:0;
+      margin: 0;
+      font-family: "Courier New", Courier, monospace;
+      background: #333;
+      height: 100vh;
+  }
+  
+  .container {
+      font-family: "Courier New", Courier, monospace;
+      width: 100%;
+      height: 100vh;
+  }
+  
+  .container h1{
+    color: black;
+  }
+  
+  /*
+  NAVBAR
+  */
+  
+  .navbar {
+      position: fixed;
+      top: 0;
+      z-index: 2;
+      display: flex;
+      width: 100%;
+      height: 85px;
+      background: rgba(0, 0, 0, 0.7);
+  }
+  
+  .navbar img {
+      height: 75px;
+      width: 75px;
+      margin-left: 60px;
+      margin-top: 5px;
+  }
+  
+  .navbar ul {
+      display: flex;
+      list-style: none;
+      width: 100%;
+      justify-content: center;
+      align-items: center;
+  }
+  
+  .navbar ul li {
+      margin: 0 1rem;
+      padding: 1rem;
+  }
+  
+  .navbar ul li a {
+      text-decoration: none;
+      text-transform: uppercase;
+      color: #f4f4f4;
+  }
+  
+  .navbar ul li a:hover {
+      color: skyblue;
+  }
+  
+  /*
+  SECTIONS DESIGN
+  */
+  
+  section {
+      font-family: "Courier New", Courier, monospace;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      width: 100%;
+      height: 100vh;
+      scroll-snap-align: center;
+  }
+  
+  section h1 {
+      font-family: "Courier New", Courier, monospace;
+      font-size: 4rem;
+  }
+  
+  section p {
+      font-family: "Courier New", Courier, monospace;
+      font-style: 1.5rem;
+  }
+  
+  section#home {
+      top: 100vh;
+    } 
+
+  section#about {
+    top: 100vh;
+  } 
+  
+  #aboutBlock {
+    height: 30vh;
+    left: -30px;
+    width: 20%;
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+  }
+  
+  section#team {
+    height: 100vh;
+  }
+  
+  section#team H1{
+    font-size: 100;
+  }
+  
+  section#team p{
+    height: 100%;
+    text-align: justify;
+    width: 80%;
+    margin-left:10%
+  }
+
+  #Morel {
+    position: absolute;
+    left: 0%;
+    background-color: white;
+    height: 650px;
+    width: 600px;
+    color: Black;
+    border-radius: 15px;
+  }
+
+  #Morel img{
+    Background: white;
+    height: 200px;
+    width: 200px;
+    border-radius: 15px;
+  }
+
+  i {
+    color: black; }
+
+  #Svensson{
+    position: absolute;
+    left: 60%;
+    background-color: white;
+    height: 650px;
+    width: 600px;
+    color: Black;
+    border-radius: 15px;
+  }
+
+  #Svensson img{
+    Background: white;
+    height: 200px;
+    width: 200px;
+    border-radius: 15px;
+  }
+
+  section#contact {
+    height: 100vh;
+  }
+
+  .contactBox {
+    background-color: whitesmoke;
+    padding: 5px 5px 5px 5px;
+    border-radius: 6px;
+  }
+  
+  .frontpageTitle{
+    text-align: center;
+    font-size: 120px;
+    color: white;
+  }

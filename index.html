@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Consulting</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="images/favicon.ico"/>
+</head>
+<body>
+<div class="container"> 
+  <nav class="navbar">
+    <img src="images/logo.png">
+      <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#team">The Team</a></li>
+          <li><a href="#contact">Contact</a></li>
+      </ul>
+  </nav>
+  <div class="body-particles">
+    <section id="home">
+      <h1 class="frontpageTitle" style="color: whitesmoke;">FinHog</h1><br><p style="color:white;font-size:24px;margin-bottom:5px;margin-top:-10px;">-your free financial information provider (coming soon)</p>
+    </section>
+    <section id="about">
+      <div id="aboutBlock"><h1>About</h1>
+      <p>Our vision is free information worldwide. Unfortunately alot of finance websites nowadays are run by greedy people that's why we've put together this website.</p>
+      </div>
+    </section>
+    <section id="team">
+      <div id="Morel">
+        <h1>Sebastian<br> Morel</h1>
+        <img src="images/Morel.jpg">
+        <br>
+        <p>At the age of 10, Morel was introduced to computers with the Commodore VIC-20. 
+          He quickly learned how to program and at the age of 12 sold a game called Blastar to Spectravideo for $500.
+          In 1995, with $28,000 and his younger brother at his side, Morel started Zip2, a web software company 
+          that would help newspapers develop online city guides. The company got bought out, and Morel used his Zip2 
+          buyout money to create X.com, which he intended to shape into the future of banking. X was merged with a company
+           called Confinity and the resulting company came to be known as PayPal. Morel was then ousted from the company
+            before it was bought by eBay.
+        </p>
+      </div>
+      <div id="Svensson">
+        <h1>Mattias Svensson</h1>
+        <img src="images/Svensson.jpg">
+        <br>
+        <p>Mattias has since a young age demonstrated a knack for financial and business 
+          matters early in his childhood: Friends and acquaintances have said the young boy was a
+           mathematical prodigy who could add large columns 
+           of numbers in his head, a talent he occasionally 
+           demonstrated in his later years.<br>
+          He was once quoted in saying:<br>
+          <br>
+          <i>"Price is what you pay. Value is what you get."</i></p>
+      </div>
+    </section>
+    <section id="contact">
+    <div class="contactBox">
+      <h1>Contact</h1>
+      <p>Email: contact@finhog.com</p>
+    </div>
+    </section>    
+    <script type="text/javascript" src="script.js"></script>
+  </div>
+  <div id="particles-js"></div>
+</div>
+<script type="text/javascript" src="particles.min.js"></script>
+<script type="text/javascript">
+  particlesJS.load('particles-js', 'particles.json', function() {
+    console.log('particles.json loaded');
+  });
+</script>
+</body>
+</html>
